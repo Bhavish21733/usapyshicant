@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="b2Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111622"/>
+      <stop offset="100%" stop-color="#08090D"/>
+    </linearGradient>
+    <linearGradient id="chakraRainbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="17%" stop-color="#F97316"/>
+      <stop offset="33%" stop-color="#EAB308"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="67%" stop-color="#0EA5E9"/>
+      <stop offset="83%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#b2Bg)"/>
+  <!-- Radiant Energy Arc -->
+  <path d="M80,380 C200,100 600,100 720,380" stroke="url(#chakraRainbow)" stroke-width="3" opacity="0.85" fill="none"/>
+  <path d="M80,380 C200,100 600,100 720,380" stroke="#D4AF37" stroke-width="1" stroke-dasharray="4 8" opacity="0.4" fill="none"/>
+
+  <!-- The Seven Discs Across Arc -->
+  <!-- 1. Root (Red) -->
+  <g transform="translate(110, 360)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#EF4444" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#EF4444"/>
+    <text x="0" y="48" text-anchor="middle" fill="#EF4444" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">ROOT</text>
+  </g>
+  <!-- 2. Sacral (Orange) -->
+  <g transform="translate(200, 270)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#F97316" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#F97316"/>
+    <text x="0" y="48" text-anchor="middle" fill="#F97316" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">SACRAL</text>
+  </g>
+  <!-- 3. Solar Plexus (Yellow) -->
+  <g transform="translate(300, 210)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#EAB308" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#EAB308"/>
+    <text x="0" y="48" text-anchor="middle" fill="#EAB308" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">SOLAR</text>
+  </g>
+  <!-- 4. Heart (Green - Center Summit) -->
+  <g transform="translate(400, 180)">
+    <circle cx="0" cy="0" r="34" fill="#161B26" stroke="#10B981" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="15" fill="#10B981"/>
+    <text x="0" y="54" text-anchor="middle" fill="#10B981" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">HEART</text>
+  </g>
+  <!-- 5. Throat (Cyan) -->
+  <g transform="translate(500, 210)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#0EA5E9" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#0EA5E9"/>
+    <text x="0" y="48" text-anchor="middle" fill="#0EA5E9" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">THROAT</text>
+  </g>
+  <!-- 6. Third Eye (Indigo) -->
+  <g transform="translate(600, 270)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#4F46E5" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#4F46E5"/>
+    <text x="0" y="48" text-anchor="middle" fill="#4F46E5" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">AJNA</text>
+  </g>
+  <!-- 7. Crown (Violet) -->
+  <g transform="translate(690, 360)">
+    <circle cx="0" cy="0" r="28" fill="#161B26" stroke="#D946EF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#D946EF"/>
+    <text x="0" y="48" text-anchor="middle" fill="#D946EF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">CROWN</text>
+  </g>
+</svg>

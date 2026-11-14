@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="sushumna" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D946EF"/>
+      <stop offset="16%" stop-color="#4F46E5"/>
+      <stop offset="33%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="66%" stop-color="#EAB308"/>
+      <stop offset="83%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <!-- Background aura subtle glow -->
+  <rect x="240" y="50" width="20" height="600" rx="10" fill="url(#sushumna)" opacity="0.4" filter="blur(8px)"/>
+  <line x1="250" y1="60" x2="250" y2="640" stroke="#D4AF37" stroke-width="2" opacity="0.8" stroke-dasharray="4 6"/>
+
+  <!-- 7 Chakras with Authentic Petals & Geometric Mandalas -->
+  <!-- 7. Sahasrara / Crown (Violet) -->
+  <g transform="translate(250, 80)">
+    <circle cx="0" cy="0" r="32" fill="#161B26" stroke="#D946EF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="24" fill="#D946EF" fill-opacity="0.2" stroke="#D946EF" stroke-width="1" stroke-dasharray="2 4"/>
+    <circle cx="0" cy="0" r="12" fill="#D946EF"/>
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+    <!-- Label -->
+    <text x="-50" y="6" text-anchor="end" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">7. Crown (Sahasrara)</text>
+    <text x="-50" y="24" text-anchor="end" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Violet · Pure Awareness · Connection</text>
+  </g>
+
+  <!-- 6. Ajna / Third Eye (Indigo) -->
+  <g transform="translate(250, 170)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#4F46E5" stroke-width="2"/>
+    <!-- 2 Petals -->
+    <path d="M-28,0 C-15,-18 15,-18 28,0 C15,18 -15,18 -28,0 Z" fill="#4F46E5" fill-opacity="0.2" stroke="#4F46E5" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#4F46E5"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="50" y="6" text-anchor="start" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">6. Third Eye (Ajna)</text>
+    <text x="50" y="24" text-anchor="start" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Indigo · Intuition · Clarity · Perception</text>
+  </g>
+
+  <!-- 5. Vishuddha / Throat (Cyan/Sky Blue) -->
+  <g transform="translate(250, 260)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#0EA5E9" stroke-width="2"/>
+    <polygon points="0,-16 14,8 -14,8" fill="#0EA5E9" fill-opacity="0.3" stroke="#0EA5E9" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#0EA5E9"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="-50" y="6" text-anchor="end" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">5. Throat (Vishuddha)</text>
+    <text x="-50" y="24" text-anchor="end" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Sky Blue · Truth · Expression · Voice</text>
+  </g>
+
+  <!-- 4. Anahata / Heart (Emerald Green) -->
+  <g transform="translate(250, 350)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#10B981" stroke-width="2"/>
+    <!-- 6-point star (Shatkona) -->
+    <polygon points="0,-18 16,9 -16,9" fill="none" stroke="#10B981" stroke-width="1"/>
+    <polygon points="0,18 16,-9 -16,-9" fill="none" stroke="#10B981" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#10B981"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="50" y="6" text-anchor="start" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">4. Heart (Anahata)</text>
+    <text x="50" y="24" text-anchor="start" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Emerald · Love · Compassion · Integration</text>
+  </g>
+
+  <!-- 3. Manipura / Solar Plexus (Sun Yellow) -->
+  <g transform="translate(250, 440)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#EAB308" stroke-width="2"/>
+    <polygon points="0,18 16,-10 -16,-10" fill="#EAB308" fill-opacity="0.2" stroke="#EAB308" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#EAB308"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="-50" y="6" text-anchor="end" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">3. Solar Plexus (Manipura)</text>
+    <text x="-50" y="24" text-anchor="end" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Yellow · Willpower · Confidence · Purpose</text>
+  </g>
+
+  <!-- 2. Svadhisthana / Sacral (Warm Orange) -->
+  <g transform="translate(250, 530)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#F97316" stroke-width="2"/>
+    <path d="M-16,4 C-8,-16 8,-16 16,4 C8,10 -8,10 -16,4 Z" fill="#F97316" fill-opacity="0.3" stroke="#F97316" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#F97316"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="50" y="6" text-anchor="start" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">2. Sacral (Svadhisthana)</text>
+    <text x="50" y="24" text-anchor="start" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Orange · Emotion · Creativity · Flow</text>
+  </g>
+
+  <!-- 1. Muladhara / Root (Crimson Red) -->
+  <g transform="translate(250, 620)">
+    <circle cx="0" cy="0" r="30" fill="#161B26" stroke="#EF4444" stroke-width="2"/>
+    <!-- 4 Petals / square -->
+    <rect x="-12" y="-12" width="24" height="24" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="0" cy="0" r="10" fill="#EF4444"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="-50" y="6" text-anchor="end" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600">1. Root (Muladhara)</text>
+    <text x="-50" y="24" text-anchor="end" fill="#A39E93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Red · Grounding · Stability · Presence</text>
+  </g>
+</svg>

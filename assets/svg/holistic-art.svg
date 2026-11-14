@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="holisticGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#10B981" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="hGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EBDD"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#holisticGlow)"/>
+  <circle cx="200" cy="200" r="160" stroke="url(#hGold)" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.5"/>
+  <!-- Tree of Life / Holistic Branches & Roots -->
+  <g stroke="url(#hGold)" stroke-width="1.8" fill="none">
+    <!-- Trunk -->
+    <path d="M200,140 L200,260" stroke-width="3"/>
+    <!-- Upper Canopy Circles representing life spheres (physical, emotional, mental, spiritual) -->
+    <circle cx="200" cy="120" r="25" fill="#161B26" stroke-width="1.5"/>
+    <circle cx="140" cy="150" r="20" fill="#161B26" stroke-width="1.5"/>
+    <circle cx="260" cy="150" r="20" fill="#161B26" stroke-width="1.5"/>
+    <circle cx="170" cy="90" r="16" fill="#161B26" stroke-width="1.5"/>
+    <circle cx="230" cy="90" r="16" fill="#161B26" stroke-width="1.5"/>
+    <!-- Branch connectors -->
+    <path d="M200,180 C170,165 155,160 140,150"/>
+    <path d="M200,180 C230,165 245,160 260,150"/>
+    <path d="M200,150 C185,120 175,100 170,90"/>
+    <path d="M200,150 C215,120 225,100 230,90"/>
+    <!-- Roots -->
+    <path d="M200,250 C170,280 150,300 130,310" stroke-width="1.5"/>
+    <path d="M200,250 C230,280 250,300 270,310" stroke-width="1.5"/>
+    <path d="M200,260 L200,320" stroke-width="1.5"/>
+  </g>
+  <!-- Sacred interlocking rings -->
+  <circle cx="200" cy="200" r="85" stroke="url(#hGold)" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+  <circle cx="200" cy="120" r="6" fill="#D4AF37"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#D4AF37" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2C889"/>
+      <stop offset="50%" stop-color="#C5A869"/>
+      <stop offset="100%" stop-color="#8A7338"/>
+    </linearGradient>
+  </defs>
+  <circle cx="300" cy="300" r="280" fill="url(#goldGlow)"/>
+  <circle cx="300" cy="300" r="280" stroke="url(#goldStroke)" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.6"/>
+  <circle cx="300" cy="300" r="260" stroke="url(#goldStroke)" stroke-width="1" opacity="0.4"/>
+  <circle cx="300" cy="300" r="210" stroke="url(#goldStroke)" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="300" cy="300" r="140" stroke="url(#goldStroke)" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="300" cy="300" r="70" stroke="url(#goldStroke)" stroke-width="1.5" opacity="0.9"/>
+  <!-- Flower of Life Circles -->
+  <g stroke="url(#goldStroke)" stroke-width="1.2" opacity="0.65">
+    <circle cx="300" cy="230" r="70"/>
+    <circle cx="300" cy="370" r="70"/>
+    <circle cx="239.38" cy="265" r="70"/>
+    <circle cx="360.62" cy="265" r="70"/>
+    <circle cx="239.38" cy="335" r="70"/>
+    <circle cx="360.62" cy="335" r="70"/>
+    <!-- 2nd tier -->
+    <circle cx="300" cy="160" r="70" stroke-opacity="0.45"/>
+    <circle cx="300" cy="440" r="70" stroke-opacity="0.45"/>
+    <circle cx="178.76" cy="230" r="70" stroke-opacity="0.45"/>
+    <circle cx="421.24" cy="230" r="70" stroke-opacity="0.45"/>
+    <circle cx="178.76" cy="370" r="70" stroke-opacity="0.45"/>
+    <circle cx="421.24" cy="370" r="70" stroke-opacity="0.45"/>
+    <circle cx="239.38" cy="195" r="70" stroke-opacity="0.45"/>
+    <circle cx="360.62" cy="195" r="70" stroke-opacity="0.45"/>
+    <circle cx="239.38" cy="405" r="70" stroke-opacity="0.45"/>
+    <circle cx="360.62" cy="405" r="70" stroke-opacity="0.45"/>
+  </g>
+  <!-- 12-point zodiac rays -->
+  <g stroke="url(#goldStroke)" stroke-width="1" opacity="0.35">
+    <line x1="300" y1="30" x2="300" y2="570" stroke-dasharray="2 4"/>
+    <line x1="30" y1="300" x2="570" y2="300" stroke-dasharray="2 4"/>
+    <line x1="109" y1="109" x2="491" y2="491" stroke-dasharray="2 4"/>
+    <line x1="109" y1="491" x2="491" y2="109" stroke-dasharray="2 4"/>
+  </g>
+  <circle cx="300" cy="300" r="6" fill="#D4AF37"/>
+</svg>

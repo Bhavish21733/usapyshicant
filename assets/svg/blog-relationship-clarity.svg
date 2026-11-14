@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="b3Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141926"/>
+      <stop offset="100%" stop-color="#090B10"/>
+    </linearGradient>
+    <linearGradient id="b3Gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EBDD"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+    <radialGradient id="b3Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#b3Bg)"/>
+  <circle cx="400" cy="250" r="240" fill="url(#b3Glow)"/>
+  
+  <!-- Interlocking Celestial Rings (Vesica Piscis - Relationship Mirror) -->
+  <circle cx="340" cy="250" r="130" stroke="url(#b3Gold)" stroke-width="1.8" fill="none"/>
+  <circle cx="460" cy="250" r="130" stroke="url(#b3Gold)" stroke-width="1.8" fill="none"/>
+  <circle cx="340" cy="250" r="115" stroke="url(#b3Gold)" stroke-width="1" stroke-dasharray="3 5" opacity="0.5" fill="none"/>
+  <circle cx="460" cy="250" r="115" stroke="url(#b3Gold)" stroke-width="1" stroke-dasharray="3 5" opacity="0.5" fill="none"/>
+
+  <!-- Central Shared Light / Clarity Portal -->
+  <path d="M400,155 C435,210 435,290 400,345 C365,290 365,210 400,155 Z" fill="url(#b3Gold)" fill-opacity="0.12" stroke="url(#b3Gold)" stroke-width="1.2"/>
+  <circle cx="400" cy="250" r="12" fill="#F3EBDD" opacity="0.9"/>
+  <circle cx="400" cy="250" r="24" stroke="url(#b3Gold)" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- Balance Scales & Boundary Lines -->
+  <line x1="220" y1="250" x2="580" y2="250" stroke="url(#b3Gold)" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+  <circle cx="220" cy="250" r="6" fill="#D4AF37"/>
+  <circle cx="580" cy="250" r="6" fill="#D4AF37"/>
+
+  <!-- Subtle Constellation Stars -->
+  <circle cx="280" cy="160" r="3" fill="#F3EBDD" opacity="0.8"/>
+  <circle cx="520" cy="160" r="3" fill="#F3EBDD" opacity="0.8"/>
+  <circle cx="260" cy="330" r="2.5" fill="#F3EBDD" opacity="0.8"/>
+  <circle cx="540" cy="330" r="2.5" fill="#F3EBDD" opacity="0.8"/>
+</svg>

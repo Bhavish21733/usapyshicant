@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="medGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="mGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EBDD"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#medGlow)"/>
+  <!-- Zen Ensō Circle (open brush stroke) -->
+  <path d="M190,65 A135,135 0 1,1 150,85" stroke="url(#mGold)" stroke-width="4" stroke-linecap="round" opacity="0.75" fill="none"/>
+  <circle cx="200" cy="200" r="155" stroke="url(#mGold)" stroke-width="1" stroke-dasharray="2 6" opacity="0.4"/>
+  <!-- Sacred Lotus Petals -->
+  <g fill="url(#mGold)" fill-opacity="0.2" stroke="url(#mGold)" stroke-width="1.5">
+    <!-- Central Petal -->
+    <path d="M200,130 C215,170 215,220 200,240 C185,220 185,170 200,130 Z"/>
+    <!-- Left Inner Petal -->
+    <path d="M200,240 C175,220 160,185 170,150 C185,185 195,215 200,240 Z"/>
+    <!-- Right Inner Petal -->
+    <path d="M200,240 C225,220 240,185 230,150 C215,185 205,215 200,240 Z"/>
+    <!-- Left Outer Petal -->
+    <path d="M200,240 C160,230 135,200 145,175 C165,200 180,225 200,240 Z"/>
+    <!-- Right Outer Petal -->
+    <path d="M200,240 C240,230 265,200 255,175 C235,200 220,225 200,240 Z"/>
+  </g>
+  <!-- Pool Base Ripple -->
+  <ellipse cx="200" cy="255" rx="70" ry="8" stroke="url(#mGold)" stroke-width="1.2" opacity="0.6"/>
+  <ellipse cx="200" cy="265" rx="45" ry="5" stroke="url(#mGold)" stroke-width="1" stroke-dasharray="2 4" opacity="0.4"/>
+  <circle cx="200" cy="115" r="4" fill="#D4AF37"/>
+</svg>

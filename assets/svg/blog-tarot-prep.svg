@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="b1Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131822"/>
+      <stop offset="100%" stop-color="#0A0C10"/>
+    </linearGradient>
+    <linearGradient id="b1Gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EBDD"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8A7338"/>
+    </linearGradient>
+    <radialGradient id="b1Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#b1Bg)"/>
+  <circle cx="400" cy="250" r="260" fill="url(#b1Glow)"/>
+  <!-- Ambient Sacred Circles -->
+  <circle cx="400" cy="250" r="220" stroke="url(#b1Gold)" stroke-width="1" stroke-dasharray="4 8" opacity="0.4"/>
+  <circle cx="400" cy="250" r="160" stroke="url(#b1Gold)" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Tarot Cards Spread -->
+  <!-- Card 1 (Left tilted) -->
+  <g transform="translate(250, 240) rotate(-14)">
+    <rect x="-65" y="-100" width="130" height="200" rx="10" fill="#161B26" stroke="url(#b1Gold)" stroke-width="1.8"/>
+    <rect x="-55" y="-90" width="110" height="180" rx="6" fill="none" stroke="url(#b1Gold)" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" stroke="url(#b1Gold)" stroke-width="1"/>
+    <polygon points="0,-18 12,12 -12,12" stroke="url(#b1Gold)" stroke-width="1" fill="none"/>
+  </g>
+  <!-- Card 3 (Right tilted) -->
+  <g transform="translate(550, 240) rotate(14)">
+    <rect x="-65" y="-100" width="130" height="200" rx="10" fill="#161B26" stroke="url(#b1Gold)" stroke-width="1.8"/>
+    <rect x="-55" y="-90" width="110" height="180" rx="6" fill="none" stroke="url(#b1Gold)" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" stroke="url(#b1Gold)" stroke-width="1"/>
+    <circle cx="0" cy="0" r="16" fill="url(#b1Gold)" fill-opacity="0.3"/>
+  </g>
+  <!-- Card 2 (Center prominent) -->
+  <g transform="translate(400, 230)">
+    <rect x="-75" y="-115" width="150" height="230" rx="12" fill="#1A2232" stroke="url(#b1Gold)" stroke-width="2.2"/>
+    <rect x="-63" y="-103" width="126" height="206" rx="8" fill="none" stroke="url(#b1Gold)" stroke-width="1" stroke-dasharray="3 5" opacity="0.7"/>
+    <!-- The Sun / Clarity Icon -->
+    <circle cx="0" cy="-15" r="32" fill="url(#b1Gold)" fill-opacity="0.2" stroke="url(#b1Gold)" stroke-width="1.5"/>
+    <circle cx="0" cy="-15" r="16" fill="url(#b1Gold)"/>
+    <!-- Sun Rays -->
+    <line x1="0" y1="-58" x2="0" y2="-50" stroke="url(#b1Gold)" stroke-width="2"/>
+    <line x1="0" y1="20" x2="0" y2="28" stroke="url(#b1Gold)" stroke-width="2"/>
+    <line x1="-38" y1="-15" x2="-46" y2="-15" stroke="url(#b1Gold)" stroke-width="2"/>
+    <line x1="38" y1="-15" x2="46" y2="-15" stroke="url(#b1Gold)" stroke-width="2"/>
+    <!-- Text on Card -->
+    <text x="0" y="65" text-anchor="middle" fill="#F3EBDD" font-family="'Cormorant Garamond', serif" font-size="16" letter-spacing="2">INTENTION</text>
+  </g>
+
+  <!-- Candle on Left -->
+  <g transform="translate(130, 310)">
+    <rect x="-16" y="0" width="32" height="70" rx="4" fill="#222B3D" stroke="url(#b1Gold)" stroke-width="1"/>
+    <path d="M0,-24 C8,-12 8,0 0,0 C-8,0 -8,-12 0,-24 Z" fill="#F3EBDD"/>
+    <circle cx="0" cy="-10" r="14" fill="#D4AF37" fill-opacity="0.35" filter="blur(4px)"/>
+  </g>
+  <!-- Quartz Crystal on Right -->
+  <g transform="translate(670, 310)">
+    <polygon points="0,-35 22,-10 18,60 -18,60 -22,-10" fill="#1F293D" stroke="url(#b1Gold)" stroke-width="1.2"/>
+    <line x1="0" y1="-35" x2="0" y2="60" stroke="url(#b1Gold)" stroke-width="0.8" opacity="0.5"/>
+  </g>
+</svg>

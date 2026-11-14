@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="reikiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#0EA5E9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="reikiGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3EBDD"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B2C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#reikiGlow)"/>
+  <!-- Energy spirals (Cho Ku Rei inspiration / universal energy flow) -->
+  <g stroke="url(#reikiGold)" stroke-width="1.5" fill="none" opacity="0.85">
+    <circle cx="200" cy="200" r="150" stroke-dasharray="3 6" opacity="0.4"/>
+    <circle cx="200" cy="200" r="120" stroke-width="1"/>
+    <!-- Healing hands contour / sacred energy orb -->
+    <path d="M110,250 C110,180 150,150 200,150 C250,150 290,180 290,250" stroke-width="2"/>
+    <circle cx="200" cy="180" r="35" fill="url(#reikiGold)" fill-opacity="0.15" stroke-width="1.5"/>
+    <!-- Radiant pulse rings -->
+    <circle cx="200" cy="180" r="55" stroke-dasharray="2 4" opacity="0.6"/>
+    <circle cx="200" cy="180" r="80" stroke-dasharray="4 8" opacity="0.4"/>
+  </g>
+  <!-- Sei He Ki / harmony waves -->
+  <path d="M140,290 C170,270 230,310 260,290" stroke="#10B981" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M150,310 C180,290 220,330 250,310" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="200" cy="180" r="10" fill="#F3EBDD"/>
+</svg>
